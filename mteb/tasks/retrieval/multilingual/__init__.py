@@ -118,6 +118,10 @@ from .omnilingual_asr_retrieval import (
 )
 from .public_health_qa_retrieval import PublicHealthQARetrieval
 from .ru_sci_bench_retrieval import RuSciBenchCiteRetrieval, RuSciBenchCociteRetrieval
+from .spoken_wikipedia_retrieval import (
+    SpokenWikipediaA2TRetrieval,
+    SpokenWikipediaT2ARetrieval,
+)
 from .statcan_dialogue_dataset_retrieval import StatcanDialogueDatasetRetrieval
 from .vaani_speech_text_retrieval import VaaniA2TRetrieval, VaaniT2ARetrieval
 from .vdr_multilingual_retrieval import VDRMultilingualRetrieval
@@ -267,6 +271,8 @@ __all__ = [
     "PublicNewsRetrieval",
     "RuSciBenchCiteRetrieval",
     "RuSciBenchCociteRetrieval",
+    "SpokenWikipediaA2TRetrieval",
+    "SpokenWikipediaT2ARetrieval",
     "StatcanDialogueDatasetRetrieval",
     "VDRMultilingualRetrieval",
     "VaaniA2TRetrieval",
